@@ -5,3 +5,14 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  background-color: #0c0b27; /* Warna dasar */
+  color: white; /* Warna teks default */
+}
+
+@layer utilities {
+  .bg-gradient-radial {
+    background: radial-gradient(circle, var(--tw-gradient-stops));
+  }
+}
